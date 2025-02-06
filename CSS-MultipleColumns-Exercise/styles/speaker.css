@@ -1,0 +1,102 @@
+/* the styles for the elements */
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  background-color: white;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 850px;
+  margin: auto;
+  border: 5px solid #800000;
+  background-color: #fffded;
+}
+header {
+  height: 100px;
+  border-bottom: 5px solid #800000;
+  background: linear-gradient(30deg, orange, white, white, orange);
+}
+
+#logo {
+  float: left;
+  margin: 20px;
+}
+
+header h2 {
+  padding-top: 20px;
+  color: #800000;
+}
+
+header h3 {
+  font-style: italic;
+}
+
+.shadow {
+  text-shadow: 1px 1px 1px #800000;
+}
+main {
+  padding: 10px;
+}
+
+main section {
+  float: right;
+  width: 575px;
+}
+
+section h1 {
+  color: #800000;
+}
+
+section h2 {
+  padding-top: 8px;
+  font-size: large;
+}
+
+main article {
+  column-count: 2;
+}
+
+article p {
+  padding-bottom: 0.5em;
+}
+
+article img {
+  margin: 0.55em 0 1em 0em;
+  width: 275px;
+  border: 2px solid black;
+}
+
+aside {
+  float: left;
+  width: 215px;
+}
+
+a:hover {
+  font-style: italic;
+}
+
+aside h2 {
+  color: #800000;
+  font-size: 150%;
+}
+
+aside h3 {
+  padding-top: 10px;
+}
+aside img {
+  padding-top: 5px;
+}
+footer {
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  background-color: #931420;
+}
+
+footer p {
+  padding: 1em 0;
+}
